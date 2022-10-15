@@ -1,31 +1,46 @@
+#include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
-#include <unistd.h>
+
+/* betty style doc for function main goes there */
 /**
- * main - Entyr point
- * Description: prints two digits combination
- * Return: Always 0 (success)
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int c, i;
+	int i;
+	int j;
 
-	for (c = '0'; c <= '9'; c++)
+	i = 48;
+	j = 49;
+	while  ((i < 57) && (j < 58))
 	{
-		for (i = '0'; i <= '9'; i++)
+		putchar(i);
+		putchar(j);
+		if ((i == 56) && (j == 57))
 		{
-			if (c < i)
+			putchar('\n');
+			i++;
+			j++;
+		}
+		else
+		{
+			putchar(44);
+			putchar(32);
+			if (j < 57)
 			{
-				putchar(c);
-				putchar(i);
-
-				if (c != '8' || (c == '8' && i != '9'))
-				{
-					putchar(',');
-					putchar(' ');
-				}
+				j++;
+			}
+			else
+			{
+				i++;
+				j = 1 + i;
 			}
 		}
+
 	}
-	putchar('\n');
+
 	return (0);
 }
