@@ -1,22 +1,24 @@
-#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
- * main - function that prints the alphabet, in lowercase, followed by a new line
+ * print_alphabet - This prints the alhpabets
+ *
+ * Description: Programm to print alphabets using putchar function
  *
  * Return: Always 0 (Success)
  */
 
-	void print_alphabet(void)
+	int print_alphabet(void)
 {
-	char ch;
+	int i = 97;
 
-	ch = 'a';
-
-	while (ch <= 'z')
+	while (i < 123)
 	{
-		_putchar(ch);
-		ch++;
+		putchar(i);
+		i++;
 	}
+	putchar(10);
+	return (0);
 
-	_putchar('\n');
 }
