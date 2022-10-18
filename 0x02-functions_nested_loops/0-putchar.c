@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 
-/* Program prints _putchar
+/* 
+ * Program prints _putchar
  * Returns: returns 0
  */
 
@@ -14,4 +15,3 @@ int main(void)
 
 		return (0);
 }
-	
