@@ -2,11 +2,11 @@
 #include <stdlib.h>
 
 /**
- * main function - Program to print _putchar
+ * main - Program to print putchar
+ * 
+ * Description: Program to print putchar
  *
- * Description: Program to print _putchar
- *
- * Return: return 0
+ * Return: return 0 (Success)
  */
 
 
