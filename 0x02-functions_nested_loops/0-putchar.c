@@ -2,7 +2,7 @@
 
 
 /* 
- * Program prints _putchar
+ * Description: Program to print _putchar
  * Returns: returns 0
  */
 
