@@ -1,8 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "main.h"
+
 
 /**
- * print_alphabet - This prints the alhpabets
+ * print_alphabet - function that prints the alphabet in lowercase
  *
  * Description: Programm to print alphabets using putchar function
  *
