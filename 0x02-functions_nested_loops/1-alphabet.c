@@ -5,7 +5,9 @@
 /**
  * print_alphabet - function that prints the alphabet in lowercase
  *
- * Description: Programm to print alphabets using putchar function
+ * Description: print alphabets using putchar function
+ *
+ * use putchar twice
  *
  * Return: Always 0 (Success)
  */
