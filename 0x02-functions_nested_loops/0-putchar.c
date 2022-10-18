@@ -1,12 +1,12 @@
 #include <stdio.h>
+#include <stdlib.h>
 
-
-/* 
+/**
  * main function - Program to print _putchar
- * 
+ *
  * Description: Program to print _putchar
  *
- * Returns: returns 0
+ * Return: return 0
  */
 
 
