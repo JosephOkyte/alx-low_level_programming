@@ -12,9 +12,9 @@
 
 	int print_alphabet(void)
 {
-	int i = 97;
+	int i = 50;
 
-	while (i < 123)
+	while (i < 76)
 	{
 		putchar(i);
 		i++;
