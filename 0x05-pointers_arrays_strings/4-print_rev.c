@@ -6,13 +6,14 @@
  * Return: Always 0
  */
 
+
 void print_rev(char *s)
 {
-	int j;
+	int i;
 
-	for (j = _strlen(s) - 1; j >= 0; j--)
+	for (i = _strlen(s) - 1; i >= 0; i--)
 	{
-		_putchar(*(s + j));
+		_putchar(*(s + i));
 	}
 	_putchar('\n');
 }
